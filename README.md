@@ -1,5 +1,5 @@
 # Notes App
-An android app that uses Model-View-Controller architecture along with persistent local database storage to 
+An android app that uses Model-View-ViewModel architecture along with persistent local database storage to 
 allow users to fetch, edit, sort, store notes. Please scroll to demo section for a demo link. 
 
 ![Notifellow Picture HERE](https://www.dropbox.com/s/r5kfnxcbrcsisph/FullMAinActivity.PNG?raw=1)
@@ -17,7 +17,7 @@ which the user later can sort the notes or edit the fields while it is being sto
 
 # App Features
 * Fully supports both _portrait_ and _landscape_ mode.
-* _Model-View-Controller_ architecture with _Android View Models_ are used
+* _Model-View-ViewModel MVVM_ architecture with _Android View Models_ are used
 * No information loss when the screen is turned or app is terminated with system kills.
 * Fetches _real-time notes from a remote server_ and stores them in a local database and displays them when the _**POPULATE**_ button is clicked.
 * Removes all the notes from the _local database_ and the screen when _**DELETE**_ button is clicked.
@@ -27,7 +27,7 @@ which the user later can sort the notes or edit the fields while it is being sto
 # Project Details
 Technologies involved:
 * Android Studio
-* Model-View-Controller architecture with Android View Models
+* Model-View-ViewModel (MVVM) architecture with Android View Models
 * ROOM (Persistent Database Storage)
 * Volley (Fetch API)
 * GSON 
